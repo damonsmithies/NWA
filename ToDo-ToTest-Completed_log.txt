@@ -8,11 +8,23 @@
    | $$  |  $$$$$$/      | $$$$$$$/|  $$$$$$/      | $$$$$$$$ /$$$$$$|  $$$$$$/   | $$   
    |__/   \______/       |_______/  \______/       |________/|______/ \______/    |__/   
 ///////////////////////////////////////////////////////////////////////////////////////////////
-
-
+======================================================
+> ADVANCED TOWING
+======================================================
+REquire rope to tow.
+======================================================
+> HELI CRASH SITES
+======================================================
+Change loot spawns
 ======================================================
 > EXILE TANOA
 ======================================================
+APEX items and vehicles need respect sorting
+Remove all respect for ammo
+Increase axe sale price
+Add sale price for shovel
+Up sake price of the launchers.
+Gold guns not saleable.
 Change vehicle costs.
 Fix hardware trader
 Remove extra trader lists
@@ -61,7 +73,7 @@ Fixed markers dissapearing
 Amended amount of time it takes for body to dissapear to 30 mins.
 Amended pricing tables.
 Removed rare items from purchase.
-Added diving goggles
+Added diving goggles [CONFIRMED WORKING]
 Removed additional trader lists
 Set Foolbox sale price
 Set Defib sale price
