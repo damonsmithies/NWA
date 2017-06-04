@@ -13,7 +13,7 @@
 	class CUP_arifle_AK74_GL								{ quality = 1; price = 400; };
 	class CUP_arifle_AKM									{ quality = 1; price = 400; };
 	class CUP_arifle_AKS									{ quality = 1; price = 400; };
-	class CUP_arifle_AKS_Gold								{ quality = 1; price = 400; };
+	class CUP_arifle_AKS_Gold								{ quality = 1; price = 400; sellPrice = 6500; };
 	class CUP_arifle_RPK74									{ quality = 1; price = 400; };
 	class CUP_arifle_AK107_GL_kobra							{ quality = 1; price = 400; };
 	class CUP_arifle_AK107_kobra							{ quality = 1; price = 400; };
@@ -170,7 +170,7 @@
 	class CUP_hgun_Phantom_Flashlight						{ quality = 1; price = 200; };
 	class CUP_hgun_Phantom_Flashlight_snds					{ quality = 1; price = 200; };
 	class CUP_hgun_TaurusTracker455							{ quality = 1; price = 200; };
-	class CUP_hgun_TaurusTracker455_gold					{ quality = 1; price = 200; };
+	class CUP_hgun_TaurusTracker455_gold					{ quality = 1; price = 200; sellPrice = 4500; };
 	class CUP_hgun_SA61										{ quality = 1; price = 200; };
 	class CUP_hgun_Duty										{ quality = 1; price = 200; };
 	class CUP_hgun_Phantom									{ quality = 1; price = 200; };
