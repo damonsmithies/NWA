@@ -24,7 +24,7 @@ SC_mapMarkers					= true;                	// Place map markers at the occupied a
 SC_minFPS						= 5;				    	// any lower than minFPS on the server and additional AI won't spawn
 SC_scaleAI						= 10;						// any more than _scaleAI players on the server and _maxAIcount is reduced for each extra player
 
-SC_removeUserMapMarkers     	= true;                 	// true to delete map markers placed by players every 10 seconds
+SC_removeUserMapMarkers     	= false;                 	// true to delete map markers placed by players every 10 seconds
 
 															// Distance limits for selecting safe places to spawn AI
 SC_minDistanceToSpawnZones  	= 750;                  	// Minimum distance in metres to the nearest spawn zone
