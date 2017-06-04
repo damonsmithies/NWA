@@ -179,10 +179,10 @@ class B_ViperHarness_blk_F					{ quality = 1; price = 150; };
 class B_FieldPack_ghex_F					{ quality = 1; price = 150; };
 class B_AssaultPack_tna_F					{ quality = 1; price = 150; };
 class B_Carryall_ghex_F						{ quality = 1; price = 150; };
-class B_Bergen_tna_F						{ quality = 1; price = 500; };
-class B_Bergen_hex_F						{ quality = 1; price = 500; };
-class B_Bergen_dgtl_F						{ quality = 1; price = 500; };
-class B_Bergen_mcamo_F						{ quality = 1; price = 500; };
+class B_Bergen_tna_F						{ quality = 1; price = 1000; };
+class B_Bergen_hex_F						{ quality = 1; price = 1000; };
+class B_Bergen_dgtl_F						{ quality = 1; price = 1000; };
+class B_Bergen_mcamo_F						{ quality = 1; price = 1000; };
 class B_ViperHarness_hex_F					{ quality = 1; price = 150; };
 
 //////////////////////////////////////////////////////////////////////////////
