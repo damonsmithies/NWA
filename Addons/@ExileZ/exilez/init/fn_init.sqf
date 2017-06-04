@@ -166,7 +166,7 @@ Trigger_1 = [				 //NWA TEMPLE RUINS
 /* 10 Marker Text */         "Crate",                // The text on the trigger
 /* 11 Vest group */          Basic,              // The name of the Array used to list all the possible vest for that trigger. ZVest.sqf
 /* 12 Loot group */          Useful,             // The name of the Array used to list all the possible loot for that trigger. ZLoot.sqf
-/* 13 Zombie group */        Hard,          // The name of the Group used to list the zombies possible for that trigger.  ZClasses.sqf
+/* 13 Zombie group */        MediumMil,          // The name of the Group used to list the zombies possible for that trigger.  ZClasses.sqf
 /* 14 Avoid Territory */     false,              // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
 /* 15 Mission Radius */      0,                  // Up to how far from the center of the trigger the mission LOOT can spawn.
 /* 16 Mission SQF */         nil,                // The location of the Mission file related to that trigger *(use M3Editor to create the file.) THIS IS STATIC AND WILL NOT MOVE WITH THE TRIGGER
@@ -187,7 +187,7 @@ Trigger_2 = [				 //NWA CUSTOM MOUNT TANOA
 /* 10 Marker Text */         "Crate",                 
 /* 11 Vest group */          Basic,              
 /* 12 Loot group */          Useful,             
-/* 13 Zombie group */        Hard,          
+/* 13 Zombie group */        MediumMil,          
 /* 14 Avoid Territory */     false,              
 /* 15 Mission Radius */      0,                  
 /* 16 Mission SQF */         nil,                
@@ -208,7 +208,7 @@ Trigger_3 = [				 //NWA CUSTOM RAD ZONE BOTTOM
 /* 10 Marker Text */         "Crate",                 
 /* 11 Vest group */          Basic,              
 /* 12 Loot group */          Useful,             
-/* 13 Zombie group */        Hard,          
+/* 13 Zombie group */        MediumMil,          
 /* 14 Avoid Territory */     false,              
 /* 15 Mission Radius */      0,                  
 /* 16 Mission SQF */         nil,                
@@ -229,7 +229,7 @@ Trigger_4 = [				 //NWA CUSTOM RAD ZONE TOP
 /* 10 Marker Text */         "Crate",                 
 /* 11 Vest group */          Basic,              
 /* 12 Loot group */          DocAndAmmo,         
-/* 13 Zombie group */        Hard,               
+/* 13 Zombie group */        MediumMil,               
 /* 14 Avoid Territory */     false,              
 /* 15 Mission Radius */      0,                  
 /* 16 Mission SQF */         nil,                
@@ -250,7 +250,7 @@ Trigger_5 = [				 //Mission Trigger
 /* 10 Marker Text */         "T5",     
 /* 11 Vest group */          Basic,              
 /* 12 Loot group */          DocAndAmmo,         
-/* 13 Zombie group */        Hardcore,           
+/* 13 Zombie group */        MediumMil,           
 /* 14 Avoid Territory */     false,              
 /* 15 Mission Radius */      1500,               
 /* 16 Mission SQF */         triggerMission,    
