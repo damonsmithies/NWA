@@ -426,7 +426,7 @@ class Exile_Item_InstaDoc                       { quality = 2; price = 1250; };
 class Exile_Item_Vishpirin						{ quality = 1; price = 300; };
 class Exile_Item_Bandage	                    { quality = 1; price = 100; };
 class Exile_Item_Heatpack	                    { quality = 1; price = 50; };
-class Exile_Item_Defibrillator				    { quality = 1; price = 7500; sellPrice = 1000; };
+class Exile_Item_Defibrillator				    { quality = 1; price = 7500; sellPrice = 2000; };
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -439,9 +439,9 @@ class Exile_Melee_SledgeHammer					{ quality = 3; price = 500; };
 class Exile_Item_CanOpener						{ quality = 1; price = 80; };
 class Exile_Item_Handsaw						{ quality = 2; price = 500; };
 class Exile_Item_Pliers							{ quality = 2; price = 350; };
-class Exile_Item_Grinder						{ quality = 2; price = 1250; };
-class Exile_Item_Foolbox						{ quality = 1; price = 3000; };
-class Exile_Item_CordlessScrewdriver			{ quality = 1; price = 750; };
+class Exile_Item_Grinder						{ quality = 2; price = 1250; sellPrice = 625; };
+class Exile_Item_Foolbox						{ quality = 1; price = 4000; sellPrice = 2000; };
+class Exile_Item_CordlessScrewdriver			{ quality = 1; price = 750; sellPrice = 325; };
 class Exile_Item_FireExtinguisher				{ quality = 1; price = 650; };
 class Exile_Item_Hammer							{ quality = 1; price = 600; };
 class Exile_Item_OilCanister					{ quality = 1; price = 1750; };
@@ -449,7 +449,7 @@ class Exile_Item_Screwdriver					{ quality = 1; price = 250; };
 class Exile_Item_Shovel							{ quality = 1; price = 700; };
 class Exile_Item_Wrench							{ quality = 1; price = 250; };
 class Exile_Item_SleepingMat					{ quality = 1; price = 1250; };
-class Exile_Item_PortableGeneratorKit			{ quality = 1; price = 2500; };
+class Exile_Item_PortableGeneratorKit			{ quality = 1; price = 2500; sellPrice = 1250; };
 //class Exile_Item_ToiletPaper					{ quality = 1; price = 5; };
 //class Exile_Item_ZipTie						{ quality = 1; price = 250; };
 
@@ -470,20 +470,20 @@ class NVGoggles									{ quality = 2; price = 100; };
 class NVGoggles_INDEP							{ quality = 2; price = 100; };
 class NVGoggles_OPFOR							{ quality = 2; price = 100; };
 class Exile_Item_XM8							{ quality = 2; price = 20; };
-class Exile_Item_MobilePhone					{ quality = 6; price = 500; };
+class Exile_Item_MobilePhone					{ quality = 6; price = 4000; sellPrice = 2000; };
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // Watch out for a Walter fart! He has gas!
 ///////////////////////////////////////////////////////////////////////////////
-class Exile_Headgear_GasMask					{ quality = 4; price = 500; };
+class Exile_Headgear_GasMask					{ quality = 4; price = 12500; sellPrice = 2000; };
 
 ///////////////////////////////////////////////////////////////////////////////
 // Rebreather
 ///////////////////////////////////////////////////////////////////////////////
-class V_RebreatherB								{ quality = 2; price = 250; };
-class V_RebreatherIA							{ quality = 2; price = 250; };
-class V_RebreatherIR							{ quality = 2; price = 250; };
+class V_RebreatherB								{ quality = 2; price = 3000; sellPrice = 1500; };
+class V_RebreatherIA							{ quality = 2; price = 3000; sellPrice = 1500; };
+class V_RebreatherIR							{ quality = 2; price = 3000; sellPrice = 1500; };
 
 ///////////////////////////////////////////////////////////////////////////////
 // Pilot Stuff
