@@ -179,10 +179,10 @@ class B_ViperHarness_blk_F					{ quality = 1; price = 150; };
 class B_FieldPack_ghex_F					{ quality = 1; price = 150; };
 class B_AssaultPack_tna_F					{ quality = 1; price = 150; };
 class B_Carryall_ghex_F						{ quality = 1; price = 150; };
-class B_Bergen_tna_F						{ quality = 1; price = 500; };
-class B_Bergen_hex_F						{ quality = 1; price = 500; };
-class B_Bergen_dgtl_F						{ quality = 1; price = 500; };
-class B_Bergen_mcamo_F						{ quality = 1; price = 500; };
+class B_Bergen_tna_F						{ quality = 1; price = 1000; };
+class B_Bergen_hex_F						{ quality = 1; price = 1000; };
+class B_Bergen_dgtl_F						{ quality = 1; price = 1000; };
+class B_Bergen_mcamo_F						{ quality = 1; price = 1000; };
 class B_ViperHarness_hex_F					{ quality = 1; price = 150; };
 
 //////////////////////////////////////////////////////////////////////////////
@@ -226,10 +226,10 @@ class RPG7_F								{ quality = 1; price = 1250; };
 //////////////////////////////////////////////////////////////////////////////
 class Laserdesignator_02_ghex_F				{ quality = 1; price = 750; };
 class Laserdesignator_01_khk_F				{ quality = 1; price = 750; };
-class O_NVGoggles_ghex_F					{ quality = 1; price = 300; };
-class O_NVGoggles_hex_F						{ quality = 1; price = 300; };
-class O_NVGoggles_urb_F						{ quality = 1; price = 300; };
-class NVGoggles_tna_F						{ quality = 1; price = 300; };
+class O_NVGoggles_ghex_F					{ quality = 1; price = 2000; };
+class O_NVGoggles_hex_F						{ quality = 1; price = 2000; };
+class O_NVGoggles_urb_F						{ quality = 1; price = 2000; };
+class NVGoggles_tna_F						{ quality = 1; price = 2000; };
 class NVGogglesB_grn_F						{ quality = 1; price = 5000; };
 class NVGogglesB_gry_F						{ quality = 1; price = 5000; };
 class NVGogglesB_blk_F						{ quality = 1; price = 5000; };

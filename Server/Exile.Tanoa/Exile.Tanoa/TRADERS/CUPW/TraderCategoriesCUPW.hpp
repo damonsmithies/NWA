@@ -204,7 +204,7 @@
             "CUP_hgun_Phantom_Flashlight",
             "CUP_hgun_Phantom_Flashlight_snds",
             "CUP_hgun_TaurusTracker455",
-            "CUP_hgun_TaurusTracker455_gold",
+            //"CUP_hgun_TaurusTracker455_gold",
             "CUP_hgun_SA61",
             "CUP_hgun_Duty",
             "CUP_hgun_Phantom" 
@@ -269,7 +269,7 @@
             "CUP_arifle_AK74_GL",
             "CUP_arifle_AKM",
             "CUP_arifle_AKS",
-            "CUP_arifle_AKS_Gold",
+            //"CUP_arifle_AKS_Gold",
             "CUP_arifle_RPK74",
             "CUP_arifle_AK107_GL_kobra",
             "CUP_arifle_AK107_kobra",

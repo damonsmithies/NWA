@@ -328,15 +328,15 @@
 	///////////////////////////////////////////////////////////////////////////////
 	//  NIArms Arctic Warfare Magnum/Arctic Warfare Covert-Magnum
 	///////////////////////////////////////////////////////////////////////////////
-	class hlc_rifle_awcovert                      { quality = 2; price = 1000; };
-	class hlc_rifle_awcovert_BL                   { quality = 2; price = 1000; };
-	class hlc_rifle_awcovert_FDE                  { quality = 2; price = 1000; };
-	class hlc_rifle_awmagnum                      { quality = 2; price = 1000; };
-	class hlc_rifle_awmagnum_BL                   { quality = 2; price = 1000; };
-	class hlc_rifle_awmagnum_FDE                  { quality = 2; price = 1000; };
-	class hlc_rifle_awMagnum_FDE_ghillie          { quality = 2; price = 1000; };
-	class hlc_rifle_awMagnum_BL_ghillie           { quality = 2; price = 1000; };
-	class hlc_rifle_awMagnum_OD_ghillie	          { quality = 2; price = 1000; };
+	class hlc_rifle_awcovert                      { quality = 2; price = 10000; sellPrice = 2500; }; 
+	class hlc_rifle_awcovert_BL                   { quality = 2; price = 10000; sellPrice = 2500; }; 
+	class hlc_rifle_awcovert_FDE                  { quality = 2; price = 10000; sellPrice = 2500; }; 
+	class hlc_rifle_awmagnum                      { quality = 2; price = 10000; sellPrice = 2500; }; 
+	class hlc_rifle_awmagnum_BL                   { quality = 2; price = 10000; sellPrice = 2500; }; 
+	class hlc_rifle_awmagnum_FDE                  { quality = 2; price = 10000; sellPrice = 2500; }; 
+	class hlc_rifle_awMagnum_FDE_ghillie          { quality = 2; price = 15000; sellPrice = 2500; }; 
+	class hlc_rifle_awMagnum_BL_ghillie           { quality = 2; price = 15000; sellPrice = 3500; }; 
+	class hlc_rifle_awMagnum_OD_ghillie	          { quality = 2; price = 15000; sellPrice = 3500; }; 
 
 	///////////////////////////////////////////////////////////////////////////////
 	//  NIArsenal FAL Rifles
