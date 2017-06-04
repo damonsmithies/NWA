@@ -57,6 +57,7 @@ Added rare loot spawning 75% of time
 ======================================================
 > EXILE TANOA
 ======================================================
+Fixed markers dissapearing
 Amended amount of time it takes for body to dissapear to 30 mins.
 Amended pricing tables.
 Removed rare items from purchase.
