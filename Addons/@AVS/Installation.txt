@@ -1,0 +1,59 @@
+Installation:
+
+
+1) Modify "AVS\@ExileServer\addons\AVS\AVS_configuration.sqf" to your liking.
+
+2) Pack your "AVS\@ExileServer\addons\AVS" folder to a PBO file (to do this, use PBO Manager http://www.armaholic.com/page.php?id=16369).
+
+3) Drop the "AVS.pbo" file into your server directory (for exemple: Arma 3 Server\@ExileServer\addons\. Where there is exile_server.pbo).
+
+4) Drop the "avs.ini" into your "extDB\sql_custom_v2" folder.
+
+5) Unpack your mission file (for exemple: "Exile.Altis.pbo") with PBO Manager.
+
+6) Put the "mpmissions\Exile.Yourmap\AVS" folder into the folder you got in step 4.
+
+7) Merge the "description.ext" and "init.sqf" files with those you get into your mission folder.
+  - ***NOTE: Make SURE you don't place the AVS init line inside an 'if !(isServer) then {...' block!***
+
+8) Repack your mission folder to a pbo file.  
+  
+9) Read the battlEye.txt file to setup your battleye filters.
+
+10) Execute the following query on your exile MySQL database:
+
+ALTER TABLE vehicle  
+ADD ammo text  
+NOT NULL;  
+UPDATE vehicle SET ammo='[]'
+
+
+Extra: To disable "Exile fill canister empty", go in your config.cpp of your mission.pbo and change this:
+********************************************************
+	class FuelSource
+	{
+		name = "Fuel pumps, stations or barrels";
+		models[] = 
+		{
+			"fuelstation_feed_f.p3d",
+			"metalbarrel_f.p3d",
+			"flexibletank_01_f.p3d",
+			"fs_feed_f.p3d"
+		};	
+	};
+********************************************************
+By this:
+********************************************************
+	class FuelSource
+	{
+		name = "Fuel pumps, stations or barrels";
+		models[] = 
+		{
+			"fuelstation_feed_f.p3d",
+			"metalbarrel_f.p3d",
+			"flexibletank_01_f.p3d"
+			//"fs_feed_f.p3d"
+		};	
+	};
+********************************************************
+
