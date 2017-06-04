@@ -226,10 +226,10 @@ class RPG7_F								{ quality = 1; price = 1250; };
 //////////////////////////////////////////////////////////////////////////////
 class Laserdesignator_02_ghex_F				{ quality = 1; price = 750; };
 class Laserdesignator_01_khk_F				{ quality = 1; price = 750; };
-class O_NVGoggles_ghex_F					{ quality = 1; price = 300; };
-class O_NVGoggles_hex_F						{ quality = 1; price = 300; };
-class O_NVGoggles_urb_F						{ quality = 1; price = 300; };
-class NVGoggles_tna_F						{ quality = 1; price = 300; };
+class O_NVGoggles_ghex_F					{ quality = 1; price = 2000; };
+class O_NVGoggles_hex_F						{ quality = 1; price = 2000; };
+class O_NVGoggles_urb_F						{ quality = 1; price = 2000; };
+class NVGoggles_tna_F						{ quality = 1; price = 2000; };
 class NVGogglesB_grn_F						{ quality = 1; price = 5000; };
 class NVGogglesB_gry_F						{ quality = 1; price = 5000; };
 class NVGogglesB_blk_F						{ quality = 1; price = 5000; };
