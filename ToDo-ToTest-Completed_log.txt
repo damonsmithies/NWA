@@ -8,17 +8,12 @@
    | $$  |  $$$$$$/      | $$$$$$$/|  $$$$$$/      | $$$$$$$$ /$$$$$$|  $$$$$$/   | $$   
    |__/   \______/       |_______/  \______/       |________/|______/ \______/    |__/   
 ///////////////////////////////////////////////////////////////////////////////////////////////
-======================================================
-> EXILEZ 
-======================================================
-Switch HarassingZombieAtNightOnly to false.
+
 
 ======================================================
 > EXILE TANOA
 ======================================================
-Amend pricing tables.
 Change vehicle costs.
-Remove rare items from purchase.
 Fix hardware trader
 Remove extra trader lists
 Why cant you put guns in your bag
@@ -27,14 +22,6 @@ Decrease loot spawn time
 Fix not being able to place guns in bag
 Make axe available in trader
 Recipe for water bottles to cannisters missing
-
-======================================================
-> LOOT SETTINGS
-======================================================
-Set Foolbox sale price to 2000
-Set Defib sale price to 3350
-Set golden AK sale price to 3000
-Set golden taurus ale price to 2500
 
 ======================================================
 > EXTENDED BASE MOD
@@ -70,8 +57,16 @@ Added rare loot spawning 75% of time
 ======================================================
 > EXILE TANOA
 ======================================================
+Amended amount of time it takes for body to dissapear to 30 mins.
+Amended pricing tables.
+Removed rare items from purchase.
 Added diving goggles
 Removed additional trader lists
+Set Foolbox sale price
+Set Defib sale price
+Set golden AK sale price
+Set golden taurus sale price
+Set bergen sale prices
 
 ======================================================
 > SHIPWRECKS
