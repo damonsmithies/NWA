@@ -176,7 +176,7 @@ AVS_spawnedPersistentVehiclesLocation =
 //**************************************************************
 
 AVS_useSpawnedPersistentVehiclesRoadside = true; // Spawns persistent vehicles near roads.
-AVS_RoadSearchRadius = 100; // Max distance to the road
+AVS_RoadSearchRadius = 50; // Max distance to the road
 AVS_spawnedPersistentVehiclesRoadside =
 [
 	//["ID Tag", ["Class1", "Class2"], [DamageMin, DamageMax], NumberToPersist],
