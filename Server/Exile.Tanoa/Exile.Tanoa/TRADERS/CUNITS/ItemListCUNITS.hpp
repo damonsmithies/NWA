@@ -102,7 +102,7 @@
 	class CUP_U_B_BAF_MTP_S5_UnRolled                                   { quality = 1; price = 80; };
 	class CUP_U_B_BAF_MTP_S6_UnRolled                                   { quality = 1; price = 80; };
 	//////////////Backpacks
-	class CUP_B_Bergen_BAF											 { quality = 1; price = 200; };
+	class CUP_B_Bergen_BAF											 { quality = 1; price = 2000; };
 	class CUP_B_GER_Pack_Tropentarn                                  { quality = 1; price = 200; };
 	class CUP_B_GER_Pack_Flecktarn                                   { quality = 1; price = 200; };
 	class CUP_B_HikingPack_Civ                                       { quality = 1; price = 200; };
