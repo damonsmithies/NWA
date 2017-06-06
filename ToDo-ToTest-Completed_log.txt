@@ -12,26 +12,13 @@
 > ADVANCED TOWING
 ======================================================
 REquire rope to tow.
-======================================================
-> HELI CRASH SITES
-======================================================
-Change loot spawns
+
 ======================================================
 > EXILE TANOA
 ======================================================
-APEX items and vehicles need respect sorting
-Remove all respect for ammo
-Increase axe sale price
-Add sale price for shovel
-Up sake price of the launchers.
-Gold guns not saleable.
 Change vehicle costs.
 Fix hardware trader
-Remove extra trader lists
-Why cant you put guns in your bag
-Fix markers disappearing
 Decrease loot spawn time
-Fix not being able to place guns in bag
 Make axe available in trader
 Recipe for water bottles to cannisters missing
 
