@@ -147,7 +147,7 @@ SC_LootCrateGuards          	= 0;                    	// number of AI to spawn a
 SC_LootCrateGuardsRandomize 	= false;                 	// Use a random number of guards up to a maximum = SC_LootCrateGuards (so between 1 and SC_LootCrateGuards)
 SC_occupyLootCratesMarkers		= false;						// true if you want to have markers on the loot crate spawns
 
-SC_ropeAttach               	= true;                	// Allow lootcrates to be airlifted (for SC_occupyLootCrates and SC_occupyHeliCrashes)
+SC_ropeAttach               	= false;                	// Allow lootcrates to be airlifted (for SC_occupyLootCrates and SC_occupyHeliCrashes)
 
 // Array of possible common items to go in loot crates ["classname",fixed amount,random amount]
 // ["Exile_Item_Matches",1,2] this example would add between 1 and 3 Exile_Item_Matches to the crate (1 + 0 to 2 more)
