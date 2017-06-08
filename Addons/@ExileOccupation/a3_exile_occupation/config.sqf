@@ -55,9 +55,9 @@ SC_occupySea					= false;					// true if you want to have roaming AI boats
 //	Fast nights Setup
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-SC_fastNightsStarts         	= 18;                   	// Start fast nights at this hour (24 hour clock) eg. 18 for 6pm
+SC_fastNightsStarts         	= 22;                   	// Start fast nights at this hour (24 hour clock) eg. 18 for 6pm
 SC_fastNightsMultiplierNight	= 24;                   	// the time multiplier to use at night (12 = 12x speed)
-SC_fastNightsEnds           	= 6;                    	// End fast nights at this hour (24 hour clock) eg. 6 for 6am
+SC_fastNightsEnds           	= 5;                    	// End fast nights at this hour (24 hour clock) eg. 6 for 6am
 SC_fastNightsMultiplierDay  	= 4;                    	// the time multiplier to use during daylight hours (4 = 4x speed)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
