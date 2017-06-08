@@ -172,35 +172,35 @@
 	// Ammunition
 	///////////////////////////////////////////////////////////////////////////////
 	class 30Rnd_mas_556x45_Stanag					{ quality = 1; price = 20; };
-	class 30Rnd_mas_556x45_T_Stanag					{ quality = 2; price = 20; };
-	class 30Rnd_mas_556x45sd_Stanag					{ quality = 2; price = 20; };
+	class 30Rnd_mas_556x45_T_Stanag					{ quality = 1; price = 20; };
+	class 30Rnd_mas_556x45sd_Stanag					{ quality = 1; price = 20; };
 	class 200Rnd_mas_556x45_Stanag					{ quality = 1; price = 30; };
-	class 200Rnd_mas_556x45_T_Stanag				{ quality = 2; price = 30; };
+	class 200Rnd_mas_556x45_T_Stanag				{ quality = 1; price = 30; };
 	class 100Rnd_mas_762x51_Stanag					{ quality = 1; price = 30; };
-	class 100Rnd_mas_762x51_T_Stanag				{ quality = 2; price = 40; };
+	class 100Rnd_mas_762x51_T_Stanag				{ quality = 1; price = 40; };
 	class 100Rnd_mas_762x54_mag						{ quality = 1; price = 30; };
-	class 100Rnd_mas_762x54_T_mag					{ quality = 2; price = 40; };
+	class 100Rnd_mas_762x54_T_mag					{ quality = 1; price = 40; };
 	class 100Rnd_mas_762x39_mag						{ quality = 1; price = 30; };
-	class 100Rnd_mas_762x39_T_mag					{ quality = 2; price = 40; };
+	class 100Rnd_mas_762x39_T_mag					{ quality = 1; price = 40; };
 	class 30Rnd_mas_545x39_mag						{ quality = 1; price = 20; };
-	class 30Rnd_mas_545x39_T_mag					{ quality = 2; price = 20; };
+	class 30Rnd_mas_545x39_T_mag					{ quality = 1; price = 20; };
 	class 100Rnd_mas_545x39_mag						{ quality = 1; price = 25; };
-	class 100Rnd_mas_545x39_T_mag					{ quality = 2; price = 25; };
+	class 100Rnd_mas_545x39_T_mag					{ quality = 1; price = 25; };
 	class 20Rnd_mas_762x51_Stanag					{ quality = 1; price = 20; };
-	class 20Rnd_mas_762x51_T_Stanag					{ quality = 2; price = 20; };
-	class 20Rnd_mas_762x51sd_Stanag 				{ quality = 2; price = 20; };
+	class 20Rnd_mas_762x51_T_Stanag					{ quality = 1; price = 20; };
+	class 20Rnd_mas_762x51sd_Stanag 				{ quality = 1; price = 20; };
 	class 5Rnd_mas_762x51_Stanag					{ quality = 1; price = 20; };
-	class 5Rnd_mas_762x51_T_Stanag					{ quality = 2; price = 20; };
+	class 5Rnd_mas_762x51_T_Stanag					{ quality = 1; price = 20; };
 	class 10Rnd_mas_338_Stanag						{ quality = 1; price = 30; };
-	class 10Rnd_mas_338_T_Stanag					{ quality = 2; price = 30; };
+	class 10Rnd_mas_338_T_Stanag					{ quality = 1; price = 30; };
 	class 30Rnd_mas_762x39_mag						{ quality = 1; price = 20; };
-	class 30Rnd_mas_762x39_T_mag					{ quality = 2; price = 20; };
+	class 30Rnd_mas_762x39_T_mag					{ quality = 1; price = 20; };
 	class 10Rnd_mas_762x54_mag						{ quality = 1; price = 25; };
-	class 10Rnd_mas_762x54_T_mag					{ quality = 2; price = 25; };
+	class 10Rnd_mas_762x54_T_mag					{ quality = 1; price = 25; };
 	class 5Rnd_mas_127x99_Stanag					{ quality = 1; price = 50; };
-	class 5Rnd_mas_127x99_T_Stanag					{ quality = 2; price = 50; };
+	class 5Rnd_mas_127x99_T_Stanag					{ quality = 1; price = 50; };
 	class 5Rnd_mas_127x108_mag						{ quality = 1; price = 40; };
-	class 5Rnd_mas_127x108_T_mag					{ quality = 2; price = 40; };
+	class 5Rnd_mas_127x108_T_mag					{ quality = 1; price = 40; };
 	class 30Rnd_mas_9x21_Stanag						{ quality = 1; price = 10; };
 	class 30Rnd_mas_9x21d_Stanag					{ quality = 1; price = 10; };
 	class 12Rnd_mas_45acp_Mag						{ quality = 1; price = 15; };
@@ -222,10 +222,10 @@
 	class 20Rnd_mas_12Gauge_Pellets					{ quality = 1; price = 20; };
 	class 150Rnd_mas_556x45_Stanag					{ quality = 1; price = 30; };
 	class 150Rnd_mas_556x45_T_Stanag				{ quality = 2; price = 30; };
-	class 30Rnd_mas_9x39_mag						{ quality = 2; price = 40; };
-	class 20Rnd_mas_9x39_mag						{ quality = 2; price = 30; };	
-	class 5Rnd_mas_127x99_dem_Stanag				{ quality = 2; price = 90; };	
-	class 5Rnd_mas_127x108_dem_mag  				{ quality = 2; price = 90; };	
+	class 30Rnd_mas_9x39_mag						{ quality = 1; price = 40; };
+	class 20Rnd_mas_9x39_mag						{ quality = 1; price = 30; };	
+	class 5Rnd_mas_127x99_dem_Stanag				{ quality = 1; price = 90; };	
+	class 5Rnd_mas_127x108_dem_mag  				{ quality = 1; price = 90; };	
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Pistols
