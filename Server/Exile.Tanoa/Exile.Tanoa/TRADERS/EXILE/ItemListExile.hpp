@@ -325,8 +325,8 @@ class muzzle_snds_M 							{ quality = 1; price = 100; };
 ///////////////////////////////////////////////////////////////////////////////
 // UAVS
 ///////////////////////////////////////////////////////////////////////////////
-class I_UavTerminal								{ quality = 4; price = 750; };
-class I_UAV_01_backpack_F						{ quality = 4; price = 3000; };
+class I_UavTerminal								{ quality = 4; price = 2500; };
+class I_UAV_01_backpack_F						{ quality = 4; price = 6000; };
 
 ///////////////////////////////////////////////////////////////////////////////
 // Static MGs
@@ -426,15 +426,15 @@ class Exile_Item_InstaDoc                       { quality = 2; price = 1250; };
 class Exile_Item_Vishpirin						{ quality = 1; price = 300; };
 class Exile_Item_Bandage	                    { quality = 1; price = 100; };
 class Exile_Item_Heatpack	                    { quality = 1; price = 50; };
-class Exile_Item_Defibrillator				    { quality = 1; price = 7500; sellPrice = 2000; };
+class Exile_Item_Defibrillator				    { quality = 1; price = 6000; sellPrice = 2000; };
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // Tools
 ///////////////////////////////////////////////////////////////////////////////
 class Exile_Item_Matches 						{ quality = 1; price = 60; };
-class Exile_Item_CookingPot						{ quality = 2; price = 80; };
-class Exile_Melee_Axe							{ quality = 2; price = 100; };
+class Exile_Item_CookingPot						{ quality = 2; price = 400; };
+class Exile_Melee_Axe							{ quality = 2; price = 500; };
 class Exile_Melee_SledgeHammer					{ quality = 3; price = 500; };
 class Exile_Item_CanOpener						{ quality = 1; price = 80; };
 class Exile_Item_Handsaw						{ quality = 2; price = 500; };
@@ -636,24 +636,24 @@ class 3Rnd_SmokeYellow_Grenade_shell			{ quality = 3; price = 8; };
 ///////////////////////////////////////////////////////////////////////////////
 // Explosives
 ///////////////////////////////////////////////////////////////////////////////
-class HandGrenade								{ quality = 3; price = 40; };
-class MiniGrenade								{ quality = 2; price = 30; };
-class B_IR_Grenade								{ quality = 1; price = 50; };
-class O_IR_Grenade								{ quality = 1; price = 50; };
-class I_IR_Grenade								{ quality = 1; price = 50; };
-class 1Rnd_HE_Grenade_shell						{ quality = 2; price = 70; };
-class 3Rnd_HE_Grenade_shell						{ quality = 3; price = 70*3; };
-class APERSBoundingMine_Range_Mag				{ quality = 3; price = 500; };
-class APERSMine_Range_Mag						{ quality = 3; price = 600; };
-class APERSTripMine_Wire_Mag					{ quality = 3; price = 300; };
-class ClaymoreDirectionalMine_Remote_Mag		{ quality = 3; price = 350; };
-class DemoCharge_Remote_Mag						{ quality = 4; price = 700; };
-class IEDLandBig_Remote_Mag						{ quality = 3; price = 600; };
-class IEDLandSmall_Remote_Mag					{ quality = 3; price = 300; };
-class IEDUrbanBig_Remote_Mag					{ quality = 3; price = 800; };
-class IEDUrbanSmall_Remote_Mag					{ quality = 3; price = 400; };
-class SatchelCharge_Remote_Mag					{ quality = 5; price = 1000; };
-class SLAMDirectionalMine_Wire_Mag				{ quality = 3; price = 700; };
+class HandGrenade								{ quality = 3; price = 290; };
+class MiniGrenade								{ quality = 2; price = 290; };
+class B_IR_Grenade								{ quality = 1; price = 290; };
+class O_IR_Grenade								{ quality = 1; price = 290; };
+class I_IR_Grenade								{ quality = 1; price = 290; };
+class 1Rnd_HE_Grenade_shell						{ quality = 2; price = 290; };
+class 3Rnd_HE_Grenade_shell						{ quality = 3; price = 290*3; };
+class APERSBoundingMine_Range_Mag				{ quality = 3; price = 750; };
+class APERSMine_Range_Mag						{ quality = 3; price = 1000; };
+class APERSTripMine_Wire_Mag					{ quality = 3; price = 850; };
+class ClaymoreDirectionalMine_Remote_Mag		{ quality = 3; price = 850; };
+class DemoCharge_Remote_Mag						{ quality = 4; price = 1100; };
+class IEDLandBig_Remote_Mag						{ quality = 3; price = 1250; };
+class IEDLandSmall_Remote_Mag					{ quality = 3; price = 1250; };
+class IEDUrbanBig_Remote_Mag					{ quality = 3; price = 1250; };
+class IEDUrbanSmall_Remote_Mag					{ quality = 3; price = 1250; };
+class SatchelCharge_Remote_Mag					{ quality = 5; price = 1600; };
+class SLAMDirectionalMine_Wire_Mag				{ quality = 3; price = 1250; };
 
 ///////////////////////////////////////////////////////////////////////////////
 // Pistols
@@ -711,29 +711,29 @@ class arifle_TRG21_GL_F							{ quality = 1; price = 350; };
 ///////////////////////////////////////////////////////////////////////////////
 // Sniper Rifles
 ///////////////////////////////////////////////////////////////////////////////
-class arifle_MXM_Black_F 						{ quality = 2; price = 550; };
-class arifle_MXM_F 								{ quality = 2; price = 550; };
-class srifle_DMR_01_F 							{ quality = 3; price = 600; };
-class srifle_DMR_02_camo_F 						{ quality = 3; price = 800; };
-class srifle_DMR_02_F 							{ quality = 3; price = 800; };
-class srifle_DMR_02_sniper_F 					{ quality = 3; price = 800; };
-class srifle_DMR_03_F 							{ quality = 3; price = 750; };
-class srifle_DMR_03_khaki_F 					{ quality = 3; price = 750; };
-class srifle_DMR_03_multicam_F 					{ quality = 3; price = 750; };
-class srifle_DMR_03_tan_F 						{ quality = 3; price = 750; };
-class srifle_DMR_03_woodland_F 					{ quality = 3; price = 750; };
-class srifle_DMR_04_F 							{ quality = 4; price = 700; };
-class srifle_DMR_04_Tan_F 						{ quality = 4; price = 700; };
-class srifle_DMR_05_blk_F 						{ quality = 4; price = 850; };
-class srifle_DMR_05_hex_F 						{ quality = 4; price = 850; };
-class srifle_DMR_05_tan_f 						{ quality = 4; price = 850; };
-class srifle_DMR_06_camo_F 						{ quality = 5; price = 800; };
-class srifle_DMR_06_olive_F 					{ quality = 5; price = 800; };
-class srifle_EBR_F 								{ quality = 3; price = 700; };
-class srifle_GM6_camo_F 						{ quality = 6; price = 900; };
-class srifle_GM6_F 								{ quality = 6; price = 900; };
-class srifle_LRR_camo_F 						{ quality = 6; price = 850; };
-class srifle_LRR_F 								{ quality = 6; price = 850; };
+class arifle_MXM_Black_F 						{ quality = 2; price = 2000; };
+class arifle_MXM_F 								{ quality = 2; price = 2000; };
+class srifle_DMR_01_F 							{ quality = 3; price = 2300; };
+class srifle_DMR_02_camo_F 						{ quality = 3; price = 2300; };
+class srifle_DMR_02_F 							{ quality = 3; price = 2300; };
+class srifle_DMR_02_sniper_F 					{ quality = 3; price = 2300; };
+class srifle_DMR_03_F 							{ quality = 3; price = 2300; };
+class srifle_DMR_03_khaki_F 					{ quality = 3; price = 2300; };
+class srifle_DMR_03_multicam_F 					{ quality = 3; price = 2300; };
+class srifle_DMR_03_tan_F 						{ quality = 3; price = 2300; };
+class srifle_DMR_03_woodland_F 					{ quality = 3; price = 2300; };
+class srifle_DMR_04_F 							{ quality = 4; price = 3000; };
+class srifle_DMR_04_Tan_F 						{ quality = 4; price = 3000; };
+class srifle_DMR_05_blk_F 						{ quality = 4; price = 3000; };
+class srifle_DMR_05_hex_F 						{ quality = 4; price = 3000; };
+class srifle_DMR_05_tan_f 						{ quality = 4; price = 3000; };
+class srifle_DMR_06_camo_F 						{ quality = 5; price = 4200; };
+class srifle_DMR_06_olive_F 					{ quality = 5; price = 4200; };
+class srifle_EBR_F 								{ quality = 3; price = 5250; };
+class srifle_GM6_camo_F 						{ quality = 6; price = 5250; };
+class srifle_GM6_F 								{ quality = 6; price = 5250; };
+class srifle_LRR_camo_F 						{ quality = 6; price = 5250; };
+class srifle_LRR_F 								{ quality = 6; price = 5250; };
 
 ///////////////////////////////////////////////////////////////////////////////
 // ArmA 2 Weapons
@@ -745,12 +745,12 @@ class Exile_Weapon_AK74_GL						{ quality = 2; price = 400; };
 class Exile_Weapon_AK47							{ quality = 3; price = 500; };
 class Exile_Weapon_AKM							{ quality = 3; price = 500; };
 class Exile_Weapon_AKS							{ quality = 3; price = 500; };
-class Exile_Weapon_AKS_Gold						{ quality = 3; price = 550; };
+class Exile_Weapon_AKS_Gold						{ quality = 3; price = 12000; };
 class Exile_Weapon_DMR							{ quality = 3; price = 650; };
-class Exile_Weapon_LeeEnfield					{ quality = 1; price = 250; };
+class Exile_Weapon_LeeEnfield					{ quality = 1; price = 4500; };
 class Exile_Weapon_CZ550						{ quality = 2; price = 400; };
-class Exile_Weapon_SVD							{ quality = 4; price = 800; };
-class Exile_Weapon_SVDCamo						{ quality = 4; price = 850; };
+class Exile_Weapon_SVD							{ quality = 4; price = 3200; };
+class Exile_Weapon_SVDCamo						{ quality = 4; price = 3600; };
 class Exile_Weapon_VSSVintorez					{ quality = 3; price = 600; };
 class Exile_Weapon_RPK							{ quality = 2; price = 250; };
 class Exile_Weapon_PK							{ quality = 3; price = 300; };
@@ -758,7 +758,7 @@ class Exile_Weapon_PKP							{ quality = 3; price = 350; };
 class Exile_Weapon_Colt1911						{ quality = 1; price = 100; };
 class Exile_Weapon_Makarov						{ quality = 1; price = 100; };
 class Exile_Weapon_Taurus						{ quality = 1; price = 100; };
-class Exile_Weapon_TaurusGold					{ quality = 1; price = 150; };
+class Exile_Weapon_TaurusGold					{ quality = 1; price = 8000; };
 class Exile_Weapon_M1014						{ quality = 2; price = 200; };
 
 ///////////////////////////////////////////////////////////////////////////////
