@@ -155,7 +155,7 @@ AVS_RefuelSpeedAirVehicle = 20;		// 20 liters/second (for air vehicles, big tank
 //**************************************************************
 
 AVS_DebugMarkers = false;
-AVS_PersistentVehiclesPinCode = "0000";
+AVS_PersistentVehiclesPinCode = "1789";
 AVS_PersistentVehiclesAmmoPercent = 0; // 100 = full ammo, 50 = half ammo, 0 = no ammo
 AVS_PersistentVehiclesFuelPercent = 25; // 100 = full, 50 = half, 0 = empty
 
@@ -176,7 +176,7 @@ AVS_spawnedPersistentVehiclesLocation =
 //**************************************************************
 
 AVS_useSpawnedPersistentVehiclesRoadside = true; // Spawns persistent vehicles near roads.
-AVS_RoadSearchRadius = 50; // Max distance to the road
+AVS_RoadSearchRadius = 30; // Max distance to the road
 AVS_spawnedPersistentVehiclesRoadside =
 [
 	//["ID Tag", ["Class1", "Class2"], [DamageMin, DamageMax], NumberToPersist],
@@ -208,47 +208,47 @@ AVS_spawnedPersistentVehiclesRoadside =
 		
 	// APEX CARS
 		// PROWLER
-		["ApexCarsPROWLER", ["B_T_LSV_01_unarmed_F"], [0.1, 0.25], 3],
+		["ApexCarsPROWLER", ["B_T_LSV_01_unarmed_F"], [0.1, 0.25], 4],
 		// QILIN
-		["ApexCarsQILIN", ["O_T_LSV_02_unarmed_F"], [0.1, 0.25], 3],
+		["ApexCarsQILIN", ["O_T_LSV_02_unarmed_F"], [0.1, 0.25], 4],
 
 	// MAS CARS
 		// UAZ
-		["MASCarsUAZ", ["I_mas_cars_UAZ_Unarmed", "I_mas_cars_UAZ_Med", "O_mas_cars_UAZ_Unarmed", "O_mas_cars_UAZ_Med"], [0.1, 0.25], 2],
+		["MASCarsUAZ", ["I_mas_cars_UAZ_Unarmed", "I_mas_cars_UAZ_Med", "O_mas_cars_UAZ_Unarmed", "O_mas_cars_UAZ_Med"], [0.1, 0.25], 3],
 		// LAND ROVERS
 		["MASCarsLR", ["B_mas_cars_LR_Unarmed", "B_mas_cars_LR_Med", "I_mas_cars_LR_soft_Unarmed", "I_mas_cars_LR_soft_Med"], [0.1, 0.25], 2],
 		// HILUX
-		["MASCarsHILUX", ["B_mas_cars_Hilux_Unarmed", "B_mas_cars_Hilux_Med"], [0.1, 0.25], 2],
+		["MASCarsHILUX", ["B_mas_cars_Hilux_Unarmed", "B_mas_cars_Hilux_Med"], [0.1, 0.25], 3],
 		// HMMWV
 		["MASCarsHILUX", ["B_mas_HMMWV_UNA", "B_mas_HMMWV_MEV", "B_mas_HMMWV_UNA_des", "B_mas_HMMWV_MEV_des"], [0.1, 0.25], 2],
 		
 
 	// CUP VEHICLES UNARMED 
 		// UAZ
-		["CUPCVehiclesUAZ", ["CUP_C_UAZ_Unarmed_TK_CIV", "CUP_O_UAZ_Unarmed_RU", "CUP_I_UAZ_Unarmed_UN", "CUP_O_UAZ_Unarmed_TKA", "CUP_O_UAZ_Unarmed_CHDKZ", "CUP_B_UAZ_Unarmed_ACR", "CUP_B_UAZ_Unarmed_CDF", "CUP_O_UAZ_Open_CHDKZ", "CUP_O_UAZ_Open_RU", "CUP_O_UAZ_Open_TKA", "CUP_I_UAZ_Open_UN", "CUP_B_UAZ_Open_ACR", "CUP_B_UAZ_Open_CDF", "CUP_C_UAZ_Open_TK_CIV"], [0.1, 0.25], 2],
+		["CUPCVehiclesUAZ", ["CUP_C_UAZ_Unarmed_TK_CIV", "CUP_O_UAZ_Unarmed_RU", "CUP_I_UAZ_Unarmed_UN", "CUP_O_UAZ_Unarmed_TKA", "CUP_O_UAZ_Unarmed_CHDKZ", "CUP_B_UAZ_Unarmed_ACR", "CUP_B_UAZ_Unarmed_CDF", "CUP_O_UAZ_Open_CHDKZ", "CUP_O_UAZ_Open_RU", "CUP_O_UAZ_Open_TKA", "CUP_I_UAZ_Open_UN", "CUP_B_UAZ_Open_ACR", "CUP_B_UAZ_Open_CDF", "CUP_C_UAZ_Open_TK_CIV"], [0.1, 0.25], 3],
 		// URAL
 		["CUPCVehiclesURAL", ["CUP_C_Ural_Civ_01", "CUP_C_Ural_Civ_02", "CUP_C_Ural_Civ_03", "CUP_C_Ural_Open_Civ_01", "CUP_C_Ural_Open_Civ_02", "CUP_C_Ural_Open_Civ_03", "CUP_O_Ural_TKA", "CUP_O_Ural_RU", "CUP_I_Ural_UN", "CUP_B_Ural_CDF", "CUP_O_Ural_CHDKZ", "CUP_O_Ural_SLA", "CUP_O_Ural_Open_TKA", "CUP_B_Ural_Open_CDF", "CUP_O_Ural_Open_RU", "CUP_O_Ural_Open_CHDKZ", "CUP_O_Ural_Open_SLA", "CUP_O_Ural_Empty_SLA", "CUP_B_Ural_Empty_CDF", "CUP_I_Ural_Empty_UN", "CUP_O_Ural_Empty_RU", "CUP_O_Ural_Empty_CHDKZ", "CUP_O_Ural_Empty_TKA", "CUP_O_Ural_Repair_SLA", "CUP_O_Ural_Repair_TKA", "CUP_O_Ural_Repair_CHDKZ", "CUP_O_Ural_Repair_RU", "CUP_I_Ural_Repair_UN", "CUP_B_Ural_Repair_CDF", "CUP_B_Ural_Refuel_CDF" ,"CUP_O_Ural_Refuel_RU", "CUP_O_Ural_Refuel_CHDKZ", "CUP_O_Ural_Refuel_TKA", "CUP_O_Ural_Refuel_SLA"], [0.1, 0.25], 4],
 		// LAND ROVER
-		["CUPCVehiclessLR", ["CUP_C_LR_Transport_CTK", "CUP_O_LR_Transport_TKA", "CUP_O_LR_Transport_TKM", "CUP_B_LR_Transport_CZ_W", "CUP_B_LR_Transport_CZ_D", "CUP_B_LR_Transport_GB_W", "CUP_B_LR_Transport_GB_D", "CUP_B_LR_Ambulance_CZ_W", "CUP_B_LR_Ambulance_CZ_D", "CUP_B_LR_Ambulance_GB_W", "CUP_B_LR_Ambulance_GB_D", "CUP_O_LR_Ambulance_TKA"], [0.1, 0.25], 2],
+		["CUPCVehiclessLR", ["CUP_C_LR_Transport_CTK", "CUP_O_LR_Transport_TKA", "CUP_O_LR_Transport_TKM", "CUP_B_LR_Transport_CZ_W", "CUP_B_LR_Transport_CZ_D", "CUP_B_LR_Transport_GB_W", "CUP_B_LR_Transport_GB_D", "CUP_B_LR_Ambulance_CZ_W", "CUP_B_LR_Ambulance_CZ_D", "CUP_B_LR_Ambulance_GB_W", "CUP_B_LR_Ambulance_GB_D", "CUP_O_LR_Ambulance_TKA"], [0.1, 0.25], 3],
 		// HMMV
 		["CUPCVehiclesHMMV", ["CUP_B_HMMWV_Unarmed_USA", "CUP_B_HMMWV_Ambulance_USMC", "CUP_B_HMMWV_Ambulance_USA", "CUP_B_HMMWV_Ambulance_ACR", "CUP_B_HMMWV_Transport_USA"], [0.1, 0.25], 4],
 		// BTR 40
-		["CUPVehiclesBTR40", ["CUP_I_M113_Med_RACS", "CUP_I_M113_Med_UN"], [0.1, 0.25], 2],
+		["CUPVehiclesBTR40", ["CUP_I_M113_Med_RACS", "CUP_I_M113_Med_UN"], [0.1, 0.25], 3],
 
 	
 	// MAS TRUCKS 
 		// URAL
-		["MASTrucksURAL", ["I_mas_cars_Ural", "I_mas_cars_Ural_open", "I_mas_cars_Ural_repair", "I_mas_cars_Ural_fuel", "O_mas_cars_Ural", "O_mas_cars_Ural_open", "O_mas_cars_Ural_repair", "O_mas_cars_Ural_fuel"], [0.1, 0.25], 2],
+		["MASTrucksURAL", ["I_mas_cars_Ural", "I_mas_cars_Ural_open", "I_mas_cars_Ural_repair", "I_mas_cars_Ural_fuel", "O_mas_cars_Ural", "O_mas_cars_Ural_open", "O_mas_cars_Ural_repair", "O_mas_cars_Ural_fuel"], [0.1, 0.25], 3],
 		
 	// ARMA 3 TRUCKS
 		// VAN
-		["Ama3TrucksVAN", ["B_G_Van_01_transport_F", "B_G_Van_01_fuel_F", "O_G_Van_01_transport_F", "O_G_Van_01_fuel_F", "I_G_Van_01_transport_F", "I_G_Van_01_fuel_F"], [0.1, 0.25], 2],
+		["Ama3TrucksVAN", ["B_G_Van_01_transport_F", "B_G_Van_01_fuel_F", "O_G_Van_01_transport_F", "O_G_Van_01_fuel_F", "I_G_Van_01_transport_F", "I_G_Van_01_fuel_F"], [0.1, 0.25], 4],
 		// HEMMT
 		["Ama3TrucksHEMMT", ["B_Truck_01_transport_F", "B_Truck_01_covered_F", "B_Truck_01_mover_F", "B_Truck_01_box_F", "B_Truck_01_Repair_F", "B_Truck_01_ammo_F", "B_Truck_01_fuel_F", "B_Truck_01_medical_F"], [0.1, 0.25], 6],
 		// ZAMAK
 		["Ama3TrucksZAMAK", ["O_Truck_02_covered_F", "O_Truck_02_transport_F", "O_Truck_02_box_F", "O_Truck_02_medical_F", "O_Truck_02_Ammo_F", "O_Truck_02_fuel_F", "I_Truck_02_transport_F", "I_Truck_02_ammo_F", "I_Truck_02_box_F", "I_Truck_02_medical_F", "I_Truck_02_fuel_F"], [0.1, 0.25], 6],
 		// TEMPEST
-		["CUPVehiclesBTR40", ["O_Truck_03_transport_F", "O_Truck_03_covered_F", "O_Truck_03_repair_F", "O_Truck_03_ammo_F", "O_Truck_03_fuel_F", "O_Truck_03_medical_F", "O_Truck_03_device_F"], [0.1, 0.25], 2]
+		["CUPVehiclesBTR40", ["O_Truck_03_transport_F", "O_Truck_03_covered_F", "O_Truck_03_repair_F", "O_Truck_03_ammo_F", "O_Truck_03_fuel_F", "O_Truck_03_medical_F", "O_Truck_03_device_F"], [0.1, 0.25], 3]
 		
 	
 		/*
