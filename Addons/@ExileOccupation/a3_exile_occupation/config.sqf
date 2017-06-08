@@ -157,9 +157,6 @@ SC_LootCrateItems           	= [
 									// RARES //
 									///////////
 									
-									// EQUIPMENT
-									["Exile_Item_Knife",0,1],
-
 									// WEAPONS
 									["Exile_Weapon_TaurusGold",1,2],
 									["Exile_Weapon_AKS_Gold",1,2],
@@ -278,30 +275,36 @@ SC_numberofHeliCrashes      	= 30;                    // if SC_occupyHeliCrashes
 // to add a fixed amount make the second number 0
 
 SC_HeliCrashItems           	=   [
-                                    ["B_Parachute",1,1],
                                     ["H_CrewHelmetHeli_B",1,1],
                                     ["ItemGPS",0,1],
-                                    ["Exile_Item_InstaDoc",0,1],
-                                    ["Exile_Item_PlasticBottleFreshWater",2,2],
-                                    ["Exile_Item_EMRE",2,2]                                 
+                                    ["Exile_Item_InstaDoc",0,3],
+                                    ["Exile_Item_PlasticBottleFreshWater",2,4],
+                                    ["Exile_Item_EMRE",2,4]                                 
                                 ];
 
 SC_HeliCrashRareItems       	=   [
                                     ["HandGrenade",0,2],
-                                    ["APERSBoundingMine_Range_Mag",0,2]                 
+                                    ["APERSBoundingMine_Range_Mag",0,2],
+                                    //AWM
+                                    ["hlc_rifle_awMagnum_OD_ghillie",0,1],
+                                    ["hlc_rifle_awmagnum",0,1],
+                                    ["hlc_rifle_awcovert",0,1],
+                                    // EQUIPMENT
+                                    ["Exile_Item_Knife",0,1]
                                 ];
-SC_HeliCrashRareItemChance  	= 10;                   // percentage chance to spawn each SC_HeliCrashRareItems
+SC_HeliCrashRareItemChance  	= 5;                   // percentage chance to spawn each SC_HeliCrashRareItems
                                 
 // Array of possible weapons to place in the crate                            
 SC_HeliCrashWeapons         	=   [
-                                    "srifle_DMR_02_camo_F",
-                                    "srifle_DMR_03_woodland_F",
-                                    "srifle_DMR_04_F",
-                                    "srifle_DMR_05_hex_F"
+					
+                                   	"srifle_DMR_02_camo_F",
+                                   	"srifle_DMR_03_woodland_F",
+                                   	"srifle_DMR_04_F",
+                                  	 "srifle_DMR_05_hex_F"
                                 ];
                                 
-SC_HeliCrashWeaponsAmount   	= [5,5]; 	// [fixed amount to add, random amount to add]
-SC_HeliCrashMagazinesAmount 	= [5,5]; 	// [fixed amount to add, random amount to add]
+SC_HeliCrashWeaponsAmount   	= [3,3]; 	// [fixed amount to add, random amount to add]
+SC_HeliCrashMagazinesAmount 	= [3,3]; 	// [fixed amount to add, random amount to add]
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //	Roaming Vehicle Setup - (applies to ground, air and sea vehicles)
