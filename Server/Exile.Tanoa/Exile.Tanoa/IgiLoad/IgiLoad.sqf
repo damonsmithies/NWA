@@ -47,6 +47,10 @@ if (isnil "IL_Variables") then
 	IL_Num_Slots_TEMPEST = -5;
 	IL_Num_Slots_HEMTT = -6;
 	IL_Num_Slots_MH9 = -1;
+	
+	//ADDED SDV
+	IL_Num_Slots_SDV = -2;
+	
 	//Player addScore after loading and unloading
 	IL_Load_Score = 20;
 	//Para unload score = 2 * IL_Unload_Score
@@ -608,6 +612,15 @@ if (isnil "IL_Procedures") then
 			if ((isNil {_obj getVariable "can_outside"}) || (_force)) then {_obj setVariable["can_outside", IL_Can_Outside, true];};
 			if ((isNil {_obj getVariable "zload"}) || (_force)) then {_obj setVariable["zload", -0.65, true];};
 			if ((isNil {_obj getVariable "load_offset"}) || (_force)) then {_obj setVariable["load_offset", 1.5, true];};
+		};
+		if (_obj_type in IL_Supported_Vehicles_SDV) then
+		{
+			    if ((isNil {_obj getVariable "box_num"}) || (_force)) then {_obj setVariable["box_num", 0, true];};
+			    if ((isNil {_obj getVariable "slots_num"}) || (_force)) then {_obj setVariable["slots_num", IL_Num_Slots_SDV, true];};
+			    if ((isNil {_obj getVariable "can_load"}) || (_force)) then {_obj setVariable["can_load", true, true];};
+			    if ((isNil {_obj getVariable "can_outside"}) || (_force)) then {_obj setVariable["can_outside", IL_Can_Outside, true];};
+			    if ((isNil {_obj getVariable "zload"}) || (_force)) then {_obj setVariable["zload", -0.45, true];};
+			    if ((isNil {_obj getVariable "load_offset"}) || (_force)) then {_obj setVariable["load_offset", -1.5, true];};
 		};
 		if (_obj_type in IL_Supported_Vehicles_VAN) then
 		{
