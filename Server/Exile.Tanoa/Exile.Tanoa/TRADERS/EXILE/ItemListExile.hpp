@@ -1225,3 +1225,10 @@ class Exile_Car_Van_Fuel_Guerilla03 				{ quality = 3; price = 15000; };
 // Zamak
 ///////////////////////////////////////////////////////////////////////////////
 class Exile_Car_Zamak 								{ quality = 4; price = 43000; };
+
+///////////////////////////////////////////////////////////////////////////////
+//  Pron mags
+///////////////////////////////////////////////////////////////////////////////
+class Exile_Item_Magazine01 								{ quality = 1; price = 1000; sellPrice = 500; };
+class Exile_Item_Magazine02 								{ quality = 1; price = 1000; sellPrice = 500; };
+class Exile_Item_Magazine03 								{ quality = 1; price = 1000; sellPrice = 500; };
