@@ -372,6 +372,7 @@ class Exile_Item_Rope							{ quality = 1; price = 20; };
 class Exile_Item_DuctTape						{ quality = 1; price = 300; };
 class Exile_Item_ExtensionCord					{ quality = 1; price = 40; };
 class Exile_Item_FuelCanisterEmpty				{ quality = 1; price = 40; };
+class Exile_Item_FuelCanisterFull				{ quality = 1; price = 500; sellPrice = 250;  };
 class Exile_Item_JunkMetal						{ quality = 1; price = 400; };
 class Exile_Item_LightBulb						{ quality = 1; price = 20; };
 class Exile_Item_MetalBoard						{ quality = 1; price = 600; };
