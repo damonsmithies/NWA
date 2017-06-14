@@ -1,0 +1,286 @@
+﻿<body bgcolor="#D8D8D8"><hr />
+<p align="center"><FONT SIZE="6" color="#000099"><b>
+Autor: Freakylein
+</b></FONT></p>
+<hr />
+<p align="center"><FONT SIZE="6" color="#000099"><b>
+Extended Base Mod für Exile Mod
+</b></FONT></p>
+<hr />
+<p align="center">
+<br>I just took some codes from the Exile Mod.</br>
+<br>This content belongs complete to the Exile Mod Team! I Just combined some things :)</br>
+<br>Well guys, this mod allows you to build some fortifications from the original Arma 3</br>
+<br>in your own Territory.</br>
+</p>
+<hr />
+<p align="center">
+<FONT SIZE="6" color="#000099"><b>
+INSTALLATION:
+</b></FONT></p>
+<hr />
+<p align="center">
+<FONT SIZE="3">
+First insert the Battleyefilter out of the "Battleye filter.txt" in the folder!!
+</FONT></p>
+<hr />
+<p align="center">
+put the folder "@Extended_Base_Mod" in your default Arma 3. It should be where your Steam is located.</br>
+Steam -> steamapps -> common -> arma 3 -> paste it here.</br>
+Then add "-mod=<b>@Extended_Base_Mod</b>" to the startup Parameters.</br>
+Copy the "Extended_Base_Mod\keys\ExtendedBase3.2.bikey" into your "keys" folder. Then delete the old key.</br>
+</p>
+<hr />
+<p align="center">
+Copy the folder called "EBM" in your Mission Exile.Altis.pbo", then viel all files to fit your Server.</br></br>
+Add the following line at the top of the <b>CfgCraftingRecipes</b> inside your config.cpp of your mission:</br>
+#include "EBM\recipes.hpp" </br></br>
+Add the following line at the top of the <b>CfgInteractionMenus</b> inside your config.cpp too:</br>
+#include "EBM\menus.hpp"</br></br>
+Add the following line at the top of the <b>CfgTraderCategories</b> inside your config.cpp too:</br>
+#include "EBM\traders.hpp"</br></br>
+Add the following line at the top of the <b>CfgExileArsenal</b> inside your config.cpp of your mission:</br>
+#include "EBM\prices.hpp"</br></br>
+if you got problems, there is a Example Folder ;)</br>
+</p>
+<hr />
+<p align="center">
+<FONT SIZE="6" color="#000099"><b>
+Traderinstallation:
+</b></FONT>
+</p>
+<hr />
+<p align="center">
+Locate the class Exile_Trader_Hardware and add "ExtendedBaseMod",</br>
+</p>
+<p align="left"> 
+  	class Exile_Trader_Hardware</br>
+	{</br>
+		&nbsp;&nbsp;&nbsp;name = "HARDWARE";</br>
+		&nbsp;&nbsp;&nbsp;showWeaponFilter = 0;</br>
+		&nbsp;&nbsp;&nbsp;categories[] = </br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hardware",</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ExtendedBaseMod", //neeeeuuuu :D</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Tools"</br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</br>
+	};</br>
+</p>
+<hr />
+<p align="center">
+<FONT SIZE="6" color="#000099"><b>
+Custom Codes:
+</b></FONT>
+</p>
+<hr />
+<p align="center">
+to make the Lootspawn in the Buildings working you have to add the following line:</br>
+<br>exileclient_system_lootmanager_thread_spawn = "EBM\exileclient_system_lootmanager_thread_spawn.sqf";</br>
+<br>to "<b>CfgExileCustomCode</b>" in your config.cpp in your mission.pbo.</br>
+</p>
+<hr />
+<p align="center">
+<FONT SIZE="6" color="#000099"><b>
+Ressourcen:
+</b></FONT>
+</p>
+<hr />
+<p align="center">
+Check all the .txt for some changes! Or the Mod will not work correctly.</br>
+!!!! Try the alternative receips and tradervalues from MrD !!!!   -Thank you for creating these ones!</br>
+To make the Watersink working define the the config.cpp in your Missionfolder like this</br>
+look for "WaterSource"</br>
+</p>
+class WaterSource</br>
+	{</br>
+		&nbsp;&nbsp;&nbsp;name = "Water tanks, barrels, coolers or pumps";</br>
+		&nbsp;&nbsp;&nbsp;models[] = 	</br>
+		&nbsp;&nbsp;&nbsp;{</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"barrelwater_f", </br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"barrelwater_grey_f",</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"waterbarrel_f",</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"watertank_f",</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Tank_rust_F",// added new</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Sink_F",// added new</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Waterpump_01_F",//added new</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"stallwater_f",</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"waterpump_01_f",</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"water_source_f",</br>
+		&nbsp;&nbsp;&nbsp;};</br>
+<hr />
+<p align="center">
+<FONT SIZE="6" color="#000099"><b>
+Updating:
+</b></FONT>
+</p>
+<hr />
+<p align="left">
+When you guys are updating pls follow this instructions:</br></br>
+1. delete the whole "@Extended_Base_Mod" folder on your server</br>
+2. remove the ExtendedBase3.1.bikey in the keys folder</br>
+4. Copy the new "@Extended_Base_Mod" folder from the one you downloaded to the root of your server</br>
+5. Copy the ExtendedBase3.2.bikey to your keys folder</br>
+6. Update your recipes.hpp, menus.hpp, traders.hpp, prices.hpp in your missionfile (highly recommended!!!)</br>
+</p>
+<hr />
+<p align="center">
+<FONT SIZE="6"><b>
+If you want to support me:<a href="https://www.paypal.me/freakylein">click here</a> 
+</b></FONT>
+</p>
+<hr />
+<p align="center">
+<FONT SIZE="6"  color="#000099"><b>
+Changelog:
+</b></FONT>
+</p>
+<hr /><p align="left">
+<FONT SIZE="5"><b>v 14.06.2017</b></FONT></br>
+- hotfix for Client because of snappositions of the Wall/floor; Server doesn't need to update</br>
+<hr />
+<FONT SIZE="5"><b>v 0.3.2.1</b></FONT></br>
+- hotfix for snappositions</br>
+<hr />
+<FONT SIZE="5"><b>v 0.3.2</b></FONT></br>
+- new Buildings 11pcs. (selfmade): Brickwall System (compatible with Exile buildings), Helipad, Airhook, Parksign </br>
+- deleted Pierbox (Land_Pier_Box_F_Kit), Big Pier (Land_nav_pier_m_F_Kit), and all camo nets ("CamoNet_OPFOR_open_F_Kit","CamoNet_INDP_open_F_Kit","CamoNet_BLUFOR_open_F_Kit")</br>
+	Admins have to delete them in the Database</br>
+- updated Battleyefilters!</br>
+<hr />
+<FONT SIZE="5"><b>v 0.3.1</b></FONT></br>
+- added 80 new buildables  // Thank you Kurewe for providing me the codes of 64 Items!!! :) celebrate him guys! :D  </br>
+	: TV, Plastic chair, Gaming Set, Gym Bench & Rack, Office interieur, PC set, Trophys, Sunshades, </br>
+	Stuff for the Garage like Engine Crane, Tool storages, Helipad lights, Tripod screens, Targets,...</br>
+- Battleyefilter reworked</br>
+- Recipe categories reworked</br>
+- enabled Simulation on serverrestart!</br>
+<hr />
+<FONT SIZE="5"><b>v 0.3.0</b></FONT></br>
+- Huge Lamp illmination fixed</br>
+- doors fixed (original by Eichi)</br>
+- certain apex buildings available</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.9</b></FONT></br>
+- Guys i am very sorry, but i had to remove the APEX buildings. Arma fucked it up :/</br>
+- fixed the damagetaking problem on earthquakes and explosives. (Breaching charges still work)</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.8</b></FONT></br>
+- new Buildables: Airporthangar (Apex), Ammobox, Basaltwall 4m & 8m and Gate (Apex), Breakwater dry & wet (Apex),</br>
+ Huron ammo- and fuelcontainer, IR tent big & small (Apex), Petroglyphwall 1 & 2 (Apex),</br>
+ sandbags green long & short (Apex), Sandbagbunker big green (Apex), Sandbagtower green (Apex), Suitcase </br>
+- all new walls with snap points </br>
+- fixed the light of the Shabby Lamp and the Camping Lamp</br>
+- fixed the height jump of the Pierbox & Airplanehangar</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.7</b></FONT></br>
+- new Buildables: Bungalow, House Big, Plastic crate, Researchfacility big and small, Garage Shelter (Apex)</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.6</b></FONT></br>
+- new Buildables: Big Bunker, Bunker Rectangle, Bunker Hexagonal, Bagbunker small green, Bunkerwall 3m</br>
+				  Bunkerwall 6m, Controltower, Barrier 3 green, Barrier 5 green, Sandbagtower green, Trench Forest & Grass(Apex) </br>
+- lootspawn fixed!!! (BIG thanks to second_coming !!)</br>
+- excluded Price and Traderlist to make them like recipes and menus (Thank you Greyfox! It made Tanoa Buildings a lot easier!)</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.5</b></FONT></br>
+- new Buildables: ATM </br>
+- Snapmode for walls (Just straight, No corners or gates yet)</br>
+- added Non-Physic for Garbage Container and Metalshed 4 Layers</br>
+- Exile Walls are only blowable by new charges</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.4</b></FONT></br>
+- new Buildables: Concrete Mixer, Flag CSAT, Garbage Container, Metalshed 4 Layers, Watersink</br>
+- fine tuned all recipes! </br>
+- changed target = "Land_CargoBox_V1_F_Kit"; in menus.hpp  	to	target = "Land_CargoBox_V1_F";. menu now working correctly.</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.3</b></FONT></br>
+- new Buildables: Camping Chair V1 & V2, Camping Table, Camping Lamp, MapBoard Altis, Pavement straight and corner narrow and straight and corner wide.</br>
+- added BRAMA categories to the recipes (Container, Walls, Flora, Misc, Buildings, Signs, Lamps)</br>
+- Battleyefilter added: !"MapBoard_altis_F"</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.2</b></FONT></br>
+- changed the way receips and menus are working, now implemented via .hpp (thank you Murgatroyd)</br>
+- new Buildings: Bush, Pier, 3 kind of Stones, Sleepingbag, 2 Solarpanels</br>
+- mass of the Big Dome changed to 200</br>
+- Armor of following reduced by half:CNC Wall,CNC Wall 1pc,Huge Container,Land Container Green</br>
+- fixed light_1_hitpoint spam in .rpt</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.1 Hotfix</b></FONT></br>V 0.2.1 Hotfix</br>
+- removed Big Tank and Military Checkpoint. Doors not working and Errors.</br>
+<hr />
+<FONT SIZE="5"><b>v 0.2.0</b></FONT></br>
+- new Buildings: airporttower, Barracks, Beachbooth, BigTank, Castletower, UnexplodedAmmoSign, Military Checkpoint, Transmissiontower</br>
+- increased armor of military tower (100 times)</br>
+- reduced weight of Airplanehangar</br>
+<hr />
+<FONT SIZE="5"><b>v 0.1.9</b></FONT></br>
+- new Buildings: Dome (big white one), Airplanehangar, Metal Shed, Solartower, Sunchair, Sunshed, Shabby Lamp</br>
+- increased armor of military tower (10 times)</br>
+<hr />
+<FONT SIZE="5"><b>v 0.1.8</b></FONT></br>
+- new Buildings:Chair, Cncblock, ContainerSmall, Industryfence 1pt, industryfence 3pt, Lampstreet, Seawall, Tavern, Tavern middle</br>
+added alternative crafting receips from MrDynamite</br>
+<hr />
+<FONT SIZE="5"><b>v 0.1.7</b></FONT></br>
+- new Buildings:PortableFloodlight double, Radar Small, Slumplane, Table, Toilet, Pierbox</br>
+Floodlight coming with next patch Sorry guys</br>
+<hr />
+<FONT SIZE="5"><b>v 0.1.6</b></FONT></br>
+- new Buildings: CNCBarrier1, Medium CNC Barrier, Crashbarrier, Big Shed, Touristshed, Watersource, CNC Wall small 4 + 8m, Military Sign Vehicle + Base Small</br>
+- bug fixed where Cargo Containers spawned a lock. -> check "addingmenutoitem.txt"</br>
+- fixed the bug where containers bouncing around, now same behavior like storage crate ^^</br>
+- Tentdome can be placed outside territory</br>
+- increased armor of military tower again (10 times)</br>
+- slightly increased armor of all hbarriers</br>
+- added alternative crafting receips in a separate .txt</br>
+<hr />
+<FONT SIZE="5"><b>v 0.1.5</b></FONT></br>
+- new Buildings: Broken Shed, Cargo Container Sand Small, CNC Stairs, Garage, Platform, Tent, Tenthangar</br>
+- added lockability to cargo containers</br>
+- fixed the bug where other players can pack the container without entering the code.</br>
+- Baselights now always on! fixed it :) hope you have fun with them.</br>
+<hr />
+<FONT SIZE="5"><b>v 0.1.4</b></FONT></br>
+- new Buildings: CNC Shelter, CNC Wall, Fuelstation Shed, Small Shed,razorwire</br>
+- Removed HalogenLights. Problem with Server restart. :( sorry guys</br>
+- lowered Mass of all heavy items.</br>
+<hr />
+<FONT SIZE="5"><b>v 0.1.3</b></FONT></br>
+- new Buildings: Slum Container, Cargo Container Big, Big Halogenlamp, Military Outpost Small</br>
+- Hangar now lockable -Menu added</br>
+- on Rusty Tank you can refuel empty Canister, not Cars. :) </br>
+- improved armor of all Buildings</br>
+- Hangar mass is set to 310 (carryall is 320)</br>
+<hr />
+<FONT SIZE="5"><b>v 0.1.2</b></FONT></br>
+- new Buildings: Rusty Tank, Metal Shelve, Cargo Tower V2 Big, Fuelstation, BagBunker Large, Shootingpostition </br>
+- Hangar now lockable -Menu added</br>
+- removed Helipadlights due to Memoryproblems!</br>
+<hr />
+<FONT SIZE="5"><b>v 0.1.1 Hotfix</b></FONT></br>
+-new Buildings: Helipadlight Blue,White and Yellow, Wooden Pier.</br>
+- added inventory to the yellow shelf and the icebox</br>
+- Hatches from the outpost can be opened now</br>
+- Hangar is not Lockable... sorry guys</br>
+- You can build Sandbags everywhere!!! :)</br>
+<hr />			
+<FONT SIZE="5"><b>v 0.1.0</b></FONT></br>
+-new Buildings: ConcreteDoor, BarGate, Helipadlights green/red, icebox, Sign Military Area, Military CncWall,</br>
+				Military Outpost, Steelfence,</br>
+-Fixed Door Locking! now working correctly </br>
+
+<hr />
+<FONT SIZE="5"><b>v 0.0.4</b></FONT></br>
+- Bugfixes</br>
+- New Buildings: 3 different Types of concrete walls; Helipad; New Shelf</br>
+<hr />
+<FONT SIZE="5"><b>v 0.0.3</b></FONT></br>
+- New Buildings: Ammobox, LandContainer, Sandbag Corner, Sandbag long, Sandbagbunker, Shelf</br>
+				Sandbagbunker Small, Hangar, Sandbagwall Big Corner, 6m, 4m, ConcreteRamp</br>
+- Ladder fixed</br>
+- Stone Gate lockable</br>
+<hr />
+<FONT SIZE="5"><b>v 0.0.2</b></FONT></br>
+- New Buildings: CNCBarrier, Stonewall, Stonegate, Ladder, Watercooler</br>
+- FIXED building location was stuck! -> battleye filter!!!</br>
+<hr />
+</p></body>
