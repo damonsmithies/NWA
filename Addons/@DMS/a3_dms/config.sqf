@@ -52,26 +52,26 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 /* Mission System Settings */
 	/*General settings for dynamic missions*/
 	DMS_DynamicMission					= true;						// Enable/disable dynamic mission system.
-	DMS_MaxBanditMissions				= 2;						// Maximum number of Bandit Missions running at the same time
-	DMS_TimeToFirstMission				= [180,420];				// [Minimum,Maximum] time between first mission spawn. | DEFAULT: 3-7 minutes.
+	DMS_MaxBanditMissions				= 3;						// Maximum number of Bandit Missions running at the same time
+	DMS_TimeToFirstMission				= [60,120];				// [Minimum,Maximum] time between first mission spawn. | DEFAULT: 3-7 minutes.
 	DMS_TimeBetweenMissions				= [600,900];				// [Minimum,Maximum] time between missions (if mission limit is not reached) | DEFAULT: 10-15 mins
 	DMS_MissionTimeout					= [1800,3600]; 				// [Minimum,Maximum] time it will take for a mission to timeout | DEFAULT: 15-30 mins
 		// 20170522|fLu_:		Amended min 1800 (30 mins) and max 3600 (1hr)
-	DMS_MissionTimeoutResetRange		= 1500;						// If a player is this close to a mission then it won't time-out. Set to 0 to disable this check.
-	DMS_MissionTimeoutResetFrequency	= 180;						// How often (in seconds) to check for nearby players and reset the mission timeout.
+	DMS_MissionTimeoutResetRange		= 200;						// If a player is this close to a mission then it won't time-out. Set to 0 to disable this check.
+	DMS_MissionTimeoutResetFrequency	= 60;						// How often (in seconds) to check for nearby players and reset the mission timeout.
 	DMS_ResetMissionTimeoutOnKill		= true;						// Whether or not to reset the mission timeout when an AI is killed.
 	/*General settings for dynamic missions*/
 
 	/*General settings for static missions*/
 	DMS_StaticMission					= true;						// Enable/disable static mission system.
 	DMS_MaxStaticMissions				= 2;						// Maximum number of Static Missions running at the same time. It's recommended you set this to the same amount of static missions that you have in total. This config will be ignored by "DMS_StaticMissionsOnServerStart".
-	DMS_TimeToFirstStaticMission		= [30,30];					// [Minimum,Maximum] time between first static mission spawn. | DEFAULT: 3-7 minutes.
-	DMS_TimeBetweenStaticMissions		= [900,1800];				// [Minimum,Maximum] time between static missions (if static mission limit is not reached) | DEFAULT: 15-30 mins
+	DMS_TimeToFirstStaticMission		= [60,120];					// [Minimum,Maximum] time between first static mission spawn. | DEFAULT: 3-7 minutes.
+	DMS_TimeBetweenStaticMissions		= [600,900];				// [Minimum,Maximum] time between static missions (if static mission limit is not reached) | DEFAULT: 15-30 mins
 	DMS_StaticMissionTimeOut			= [1800,3600]; 				// [Minimum,Maximum] time it will take for a static mission to timeout | DEFAULT: 30-60 mins
-	DMS_StaticMissionTimeoutResetRange	= 1500;						// If a player is this close to a mission then it won't time-out. Set to 0 to disable this check.
-	DMS_SMissionTimeoutResetFrequency	= 180;						// How often (in seconds) to check for nearby players and reset the mission timeout for static missions.
+	DMS_StaticMissionTimeoutResetRange	= 200;						// If a player is this close to a mission then it won't time-out. Set to 0 to disable this check.
+	DMS_SMissionTimeoutResetFrequency	= 60;						// How often (in seconds) to check for nearby players and reset the mission timeout for static missions.
 	DMS_ResetStaticMissionTimeoutOnKill	= true;						// Whether or not to reset the mission timeout when an AI is killed (for Static Missions).
-	DMS_StaticMinPlayerDistance			= 1500;						// If a player is this close to a mission location, then it won't spawn the mission and will wait 60 seconds before attempting to spawn it.
+	DMS_StaticMinPlayerDistance			= 500;						// If a player is this close to a mission location, then it won't spawn the mission and will wait 60 seconds before attempting to spawn it.
 	DMS_AllowStaticReinforcements		= true;						// Whether or not static missions will receive reinforcements. This will simply disable the calling of GroupReinforcementsMonitor;
 	DMS_SpawnFlareOnReinforcements		= true;						// Whether or not to spawn a flare and noise when AI reinforcements have spawned.
 	/*General settings for static missions*/
@@ -103,9 +103,9 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 
 	/*Mission Cleanup settings*/
 	DMS_CompletedMissionCleanup			= true;						// Cleanup mission-spawned buildings and AI bodies after some time
-	DMS_CompletedMissionCleanupTime		= 900;						// Minimum time until mission-spawned buildings and AI are cleaned up
+	DMS_CompletedMissionCleanupTime		= 600;						// Minimum time until mission-spawned buildings and AI are cleaned up
 	DMS_CleanUp_PlayerNearLimit			= 100;						// Cleanup of an object is aborted if a player is this many meters close to the object
-	DMS_AIVehCleanUpTime				= 300;						// Time until a destroyed AI vehicle is cleaned up.
+	DMS_AIVehCleanUpTime				= 600;						// Time until a destroyed AI vehicle is cleaned up.
 	/*Mission Cleanup settings*/
 
 	/*Mission spawn location settings*/
@@ -233,7 +233,7 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 
 	/*Mission notification settings*/
 
-	DMS_RandomBanditMissionsOnStart		= 2;						// Number of (random) bandit missions to spawn when the server starts, just so players don't have to wait for missions to spawn.
+	DMS_RandomBanditMissionsOnStart		= 3;						// Number of (random) bandit missions to spawn when the server starts, just so players don't have to wait for missions to spawn.
 	DMS_BanditMissionTypes =			[			//	List of missions with spawn chances. If they add up to 100%, they represent the percentage chance each one will spawn
 											["bandits",3],
 											["bauhaus",3],
@@ -348,7 +348,7 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 	DMS_Bandit_Static_RankGain			= 30;
 	DMS_Bandit_Static_SpawnMoney		= 250;						// The amount of Poptabs carried by a bandit static gunner
 
-	DMS_Bandit_Vehicle_MoneyGain		= 250;						// The amount of Poptabs gained for killing a bandit vehicle crew member
+	DMS_Bandit_Vehicle_MoneyGain		= 350;						// The amount of Poptabs gained for killing a bandit vehicle crew member
 	DMS_Bandit_Vehicle_RepGain			= 25;						// The amount of Respect gained for killing a bandit vehicle crew member
 	DMS_Bandit_Vehicle_RankGain			= 50;
 	DMS_Bandit_Vehicle_SpawnMoney		= 250;						// The amount of Poptabs carried by a bandit vehicle crew member
