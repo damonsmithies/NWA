@@ -40,14 +40,14 @@ SC_useWaypoints					= false;                 	// When spawning AI create waypoin
 
 SC_processReporter				= false;                 	// log the a list of active server processes every 60 seconds (useful for debugging server problems)
 SC_fastNights               	= true;						// true if you want night time to go faster than daytime
-SC_occupyPlaces 				= false;					// true if you want villages,towns,cities patrolled by bandits
+SC_occupyPlaces 				= true;					// true if you want villages,towns,cities patrolled by bandits
 SC_occupyTraders            	= false;						// true if you want to create trader camps at positions specified in SC_occupyTraderDetails
 SC_occupyStatic	 		    	= false;		    			// true if you want to add AI in specific locations
 SC_occupyTransport 	        	= true;					// true if you want pubic transport (travels between traders)
 SC_occupyLootCrates		    	= true;						// true if you want to have random loot crates with guards
 SC_occupyRandomSpawn        	= false;               		// (WORK IN PROGRESS) true if you want random spawning AI that hunt for nearby players
 SC_occupyMilitary 		    	= false;			    	// true if you want military buildings patrolled
-SC_occupyVehicle				= false;					// true if you want to have roaming AI land vehicles
+SC_occupyVehicle				= true;					// true if you want to have roaming AI land vehicles
 SC_occupySky					= true;						// true if you want to have roaming AI helis
 SC_occupySea					= false;					// true if you want to have roaming AI boats
 
@@ -55,9 +55,9 @@ SC_occupySea					= false;					// true if you want to have roaming AI boats
 //	Fast nights Setup
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-SC_fastNightsStarts         	= 22;                   	// Start fast nights at this hour (24 hour clock) eg. 18 for 6pm
+SC_fastNightsStarts         	= 23;                   	// Start fast nights at this hour (24 hour clock) eg. 18 for 6pm
 SC_fastNightsMultiplierNight	= 24;                   	// the time multiplier to use at night (12 = 12x speed)
-SC_fastNightsEnds           	= 5;                    	// End fast nights at this hour (24 hour clock) eg. 6 for 6am
+SC_fastNightsEnds           	= 2;                    	// End fast nights at this hour (24 hour clock) eg. 6 for 6am
 SC_fastNightsMultiplierDay  	= 4;                    	// the time multiplier to use during daylight hours (4 = 4x speed)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -65,8 +65,8 @@ SC_fastNightsMultiplierDay  	= 4;                    	// the time multiplier to 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 SC_randomSpawnMinPlayers    	= 1;                    	// Minimum number of players to be online before random spawning AI can spawn
-SC_randomSpawnMaxGroups        	= 4;                    	// Maximum amount of random AI groups allowed at any time
-SC_randomSpawnMinGroupSize      = 3;                    	// Minimum amount of random AI groups allowed per group
+SC_randomSpawnMaxGroups        	= 2;                    	// Maximum amount of random AI groups allowed at any time
+SC_randomSpawnMinGroupSize      = 2;                    	// Minimum amount of random AI groups allowed per group
 SC_randomSpawnMaxGroupSize      = 5;                    	// Maximum amount of random AI groups allowed per group
 SC_randomSpawnChance			= 12;						// Percentage chance of spawning if suitable player found
 SC_randomSpawnIgnoreCount		= true;						// true if you want spawn random AI groups regardless of overall AI count (they still count towards the total though)
